@@ -1,0 +1,7 @@
+Vagrantfile
+vag-bootstrap.sh
+.vagrant
+.DS_Store
+.vscode
+ubuntu*.log
+target/*

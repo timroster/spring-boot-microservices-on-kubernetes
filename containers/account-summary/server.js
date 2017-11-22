@@ -38,7 +38,7 @@ async.retry({
             port: portNumber,
             user: username,
             password: password,
-            database: "dockercon2017"
+            database: "icpdemodb"
         });
 
         console.log('Connecting')
