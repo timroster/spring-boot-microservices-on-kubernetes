@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: office-space-ingress
+spec:
+  tls:
+  - hosts:
+    - office-space.example.com
+    secretName: office-space-secret
+  rules:
+  - host: office-space.example.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: account-summary
+          servicePort: 80
