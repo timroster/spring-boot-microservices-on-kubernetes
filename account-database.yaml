@@ -40,7 +40,7 @@ spec:
             - name: MYSQL_ROOT_PASSWORD
               value: password
             - name: MYSQL_DATABASE
-              value: dockercon2017
+              value: icpdemodb
 
           ports:
             - containerPort: 3306
